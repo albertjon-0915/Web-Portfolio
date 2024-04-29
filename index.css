@@ -1,0 +1,167 @@
+/*.......................................
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.........................................*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"Montserrat", sans-serif;
+	color: white;
+	box-sizing: border-box !important;
+}
+html{
+	scroll-behavior:smooth !important;
+	scroll-padding-top: 3em !important;
+}
+#input-form-searchBar{
+	min-width: 80%;
+}
+#landing-page{
+	overflow: hidden;
+}
+.body-template{
+	min-width: 100%;
+	min-height: 70vh;
+	box-shadow: 1px 1px 10px 1px gray;
+}
+#image-businessMan{
+	width: 26em;
+	height: 35em;
+	filter: grayscale(100%);
+	top: 12em;
+	margin-left: 1em;
+}
+#image-circle{
+	width: 30em;
+	height: 30em;
+	background-color: rgb(231,254,255);
+	border-radius: 50%;
+	/*	overflow: hidden;*/
+}
+.justify{
+	text-align: justify;
+}
+
+#projects-title{
+	border-bottom: 2px solid lightgrey;
+}
+#tools-cards img{
+	width: 100px;
+	height: 100px;
+}
+#tools-cards li{
+	list-style-type: none;
+}
+
+#contact{
+	box-shadow: 1px 1px 10px 1px gray;
+}
+#contact-image {
+	background: 
+	url("https://www.brandloom.com/wp-content/uploads/2018/09/Creative-graphic-design-studios-in-Delhi-Pune-Mumbai-Bangalore.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#contact-header {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 49px;
+}
+
+#contact-text {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+#contact form label {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+#contact form input {
+	background: #FFFFFF;
+	border: 1px solid rgba(13, 202, 240, 1) !important;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	line-height: 29px;
+}
+
+#contact form textarea {
+	background: #FFFFFF;
+	border: 1px solid rgba(13, 202, 240, 1) !important;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	line-height: 29px;
+}
+
+@media only screen and (max-width:992px) {
+	#image-businessMan{
+		width: 20em;
+		height: 30em;
+		margin-top: 3em;
+		margin-left: 3em;
+	}
+
+	#image-circle{
+		width: 25em;
+		height: 25em;
+	}
+}
+
+#socials li{
+	list-style-type: none;
+	filter: opacity(70%);
+}
+
+@media only screen and (max-width:768px) {
+	#image-businessMan{
+		position: absolute;
+		width: 15em;
+		height: 20em;
+		margin-left: 1.8em;
+		top: 0;
+		left: 0;
+	}
+
+	#image-circle{
+		position: relative;
+		width: 20em;
+		height: 20em;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width:576px) {
+	#image-businessMan{
+		position: absolute;
+		width: 15em;
+		height: 20em;
+		margin-left: 1.8em;
+		top: 0;
+		left: 0;
+	}
+
+	#image-circle{
+		position: relative;
+		width: 20em;
+		height: 20em;
+		overflow: hidden;
+	}
+}
